@@ -8,7 +8,7 @@ import com.example.test1.songs.model.Song
 import com.example.test1.databinding.SongRowDesignBinding
 import androidx.recyclerview.widget.DiffUtil
 
-class SongAdopter (var deleteProductCallBack: (String) -> Unit) : ListAdapter <Song, SongAdopter.SongViewHolder> (diffChecker) {
+class SongAdopter  : ListAdapter <Song, SongAdopter.SongViewHolder> (diffChecker) {
 
 
 
@@ -27,10 +27,6 @@ class SongAdopter (var deleteProductCallBack: (String) -> Unit) : ListAdapter <S
     override fun onBindViewHolder(holder: SongViewHolder, position: Int) {
         val dataitem = getItem(position)
         holder.songRowDesignBinding.song = dataitem
-
-        holder.SongRowDesignBinding.DeleteBtn.setOnClickListener {
-            deleteProductCallBack.invoke(dataitem.id)
-        }
 
     }
 }
