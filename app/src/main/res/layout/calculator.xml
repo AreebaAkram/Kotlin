@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="calmodel"
+            type="com.example.test1.calculator.model.CalModel" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:padding="8dp"
+        android:backgroundTint="#87EDEDED">
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_height="70dp"
+            android:layout_width="100dp"
+            android:text="@{calmodel.a}"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/operator"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:text="@{calmodel.op}"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_height="70dp"
+            android:layout_width="100dp"
+            android:text="@{calmodel.b}"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@{calmodel.res}"
+        android:textSize="70sp"
+        android:gravity="end|center_vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignMargins">
+
+    <Button
+        android:id="@+id/btnC"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black"
+            >
+        </Button>
+        <Button
+            android:id="@+id/btnBrackets"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnPercent"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnDivide"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnSeven"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnEight"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnNine"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnMultiply"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnFour"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnFive"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnSix"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnMinus"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnOne"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnTwo"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnThree"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnPlus"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnZero"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnDecimal"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnCancel"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#87EDEDED"
+            android:textColor="@color/black">
+        </Button>
+        <Button
+            android:id="@+id/btnEqual"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:backgroundTint="#6AEDD5D5"
+            android:textColor="@color/black">
+        </Button>
+
+
+    </GridLayout>
+</LinearLayout>
+</layout>
