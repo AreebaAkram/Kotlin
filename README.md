@@ -3,7 +3,8 @@ This repository contains all the projects tat i have built using Kotlin.
 ## 1st : Song App
 This is a kotlin based demonstration of MVVM architecture and JetPack Components. This projects helps in understanding the design pattern of MVVM architecture -
 how it separates business logics from data presentation logic. This projects allows to perform CRUD operations with each song containing Song name, Artist name and thumbnail image.
-![1](https://github.com/user-attachments/assets/557caf7d-777f-4d50-93df-a10eddcbe144)
+<img src = ![1](https://github.com/user-attachments/assets/d6161f9d-ed52-4570-b751-309808bfad25) alt = "alt txt" height = "300"
+>
 
 ### How it functions:
 <li> Allows user to add song details </li>
