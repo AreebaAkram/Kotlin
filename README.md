@@ -3,8 +3,6 @@ This repository contains all the projects tat i have built using Kotlin.
 ## 1st : Song App
 This is a kotlin based demonstration of MVVM architecture and JetPack Components. This projects helps in understanding the design pattern of MVVM architecture -
 how it separates business logics from data presentation logic. This projects allows to perform CRUD operations with each song containing Song name, Artist name and thumbnail image.
-<img src = ![1](https://github.com/user-attachments/assets/d6161f9d-ed52-4570-b751-309808bfad25) alt = "alt txt" height = "300"
->
 
 ### How it functions:
 <li> Allows user to add song details </li>
@@ -16,13 +14,12 @@ how it separates business logics from data presentation logic. This projects all
 <li> DOM & Room Databases </li>
 <li> Live Data </li>
 <li> View Binding </li>
-
+![1](https://github.com/user-attachments/assets/537daf32-6f39-4eb7-9335-34bca2ca82dc)
 
 
 ## 2nd: Calculator App
 A fully functional and minimal calculator app built using **Kotlin**, **Android Studio**, and **Data Binding**.
 This project was developed to strengthen Android fundamentals, focusing on **clean code architecture**, **dynamic UI interaction**, and **real-time data display using MVVM principles**.
-![2](https://github.com/user-attachments/assets/6eea3af4-dd26-42b2-afd7-effa570d5ea9)
 
 ### Features
 <li> Supports basic arithmetic operations: `+`, `-`, `×`, `÷`, `%`</li>
@@ -37,4 +34,6 @@ This project was developed to strengthen Android fundamentals, focusing on **cle
 <li> Grid Layout</li>
 <li> Data Binding</li>
 <li> Lambda Expression</li>
+![2](https://github.com/user-attachments/assets/444e10ce-b5eb-4787-889c-5cb312f851c9)
+
 
