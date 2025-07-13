@@ -4,7 +4,7 @@ This repository contains all the projects tat i have built using Kotlin.
 This is a kotlin based demonstration of MVVM architecture and JetPack Components. This projects helps in understanding the design pattern of MVVM architecture -
 how it separates business logics from data presentation logic. This projects allows to perform CRUD operations with each song containing Song name, Artist name and thumbnail image.
 
-### How it functions:
+### Features:
 <li> Allows user to add song details </li>
 <li> Edit song details </li>
 <li> Delete song item </li>
